@@ -12,3 +12,6 @@ footnote : "© 2017 sample Inc."
 
 #スライドのページ数表示の設定
 slide-number: true
+
+#トランジションの設定（convex, concave, default, fade, none, slide, zoomなど）
+transition : fade
