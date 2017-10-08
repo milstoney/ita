@@ -3,11 +3,12 @@ Nablarch vs Spring
 Nablarchについて
 
 Nablarch(ナブラーク)は、TISの豊富な基幹システム構築経験から得られたナレッジを集約したJavaアプリケーション開発/実行基盤です。<a href="https://nablarch.github.io/docs/LATEST/doc/" target="_blank">https://nablarch.github.io/docs/LATEST/doc/</a>
+![PIC](framework.png)
+
 +++
 SpringについてJavaプラットフォーム向けのオープンソースアプリケーションフレームワークである。
 ※wikipediaよりNablarch(ナブラーク)は、TISの豊富な基幹システム構築経験から得られたナレッジを集約したJavaアプリケーション開発/実行基盤です。
 
-+++![PIC](framework.png)
 
 
 <a href="https://ja.wikipedia.org/wiki/Spring_Framework" target="_blank">https://ja.wikipedia.org/wiki/Spring_Framework</a>
