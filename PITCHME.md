@@ -16,8 +16,13 @@ Springについて
 Javaプラットフォーム向けのオープンソースアプリケーションフレームワークである。
 <a href="https://ja.wikipedia.org/wiki/Spring_Framework" target="_blank">https://ja.wikipedia.org/wiki/Spring_Framework</a>
 
----
-<table>  <tr>    <th>Firstname</th>    <th>Lastname</th>     <th>Age</th>  </tr>  <tr>    <td>Jill</td>    <td>Smith</td>    <td>50</td>  </tr>  <tr class="fragment">    <td>Eve</td>    <td>Jackson</td>    <td>94</td>  </tr>  <tr class="fragment">    <td>John</td>    <td>Doe</td>    <td>80</td>  </tr></table>
++++
+![PIC](spring-overview.png)
+
+<span style="font-size:0.6em; align=left">Nablarchアプリケーションフレームワークは、ウェブやバッチといった処理方式に合わせた実行制御基盤と、 データベースアクセスやバリデーションといった個別の機能を提供するライブラリから構成される。</span>
+
+spring-overview
+
 +++
 上下にも移動できます
 ---Nablarch vs Spring
