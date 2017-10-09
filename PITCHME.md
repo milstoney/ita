@@ -27,8 +27,13 @@ NablarchとSpringの共通点
 〇 言語はJava (Spring.NETもあるが、ヒットしない)
 ---
 〇 対象は主にWebベースのアプリケーション。   
-   Web以外も対応：  
+
+---
+〇Web以外でも対応：  
     ●Web Service     
+    ●Batch Application
+---
+	●Web Service
      ・Nablarch
 
          RESTfulウェブサービス（推奨）      
