@@ -416,6 +416,13 @@ JavaMailSender API
 
 ・例外管理
 
+---
+
+次回はNablarch vs Spring 実装対比？
+
+---
+
+
 
 
 
