@@ -24,9 +24,9 @@ Javaプラットフォーム向けのオープンソースアプリケーショ�
 
 NablarchとSpringの共通点
 ---
-〇　言語はJava (Spring.NETもあるが、ヒットしない)
+### 〇　言語はJava (Spring.NETもあるが、ヒットしない)
 ---
-〇　対象は主にWeb Application
+### 〇　対象は主にWeb Application
 
 ---
 Web Application以外でも対応：  
@@ -65,7 +65,7 @@ Nablarchバッチアプリケーション
 
 ---
 
-〇　MVC
+### 〇　MVC
 
 ●　<a href="https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/web/architecture.html" target="_blank">NablarchもHTTPとServletベースのMVCをサポート</a>
 
@@ -81,7 +81,7 @@ HTTPとServletベースで、REST準拠WEBサービスの拡張も可能。（�
 
 ---
 
-〇　DBアクセス機能
+### 〇　DBアクセス機能
 
 ●　Nablarch
 
@@ -99,7 +99,7 @@ HTTPとServletベースで、REST準拠WEBサービスの拡張も可能。（�
 
 ---
 
-〇　トランザクション管理、排他制御
+### 〇　トランザクション管理、排他制御
 
 ●　Nablarch
 
@@ -125,7 +125,7 @@ HTTPとServletベースで、REST準拠WEBサービスの拡張も可能。（�
 
 ---
 
-〇　Validation
+### 〇　Validation
 
 ●　Nablarch
 
@@ -142,7 +142,7 @@ HTTPとServletベースで、REST準拠WEBサービスの拡張も可能。（�
 ・Custom Validator
 
 ---
-### セッション管理
+### 〇　セッション管理
 
 ●　Nablarch
 セッション変数の保存先は以下３つ
@@ -155,6 +155,8 @@ HTTPとServletベースで、REST準拠WEBサービスの拡張も可能。（�
 
 
 ---?image=https://nablarch.github.io/docs/LATEST/doc/_images/session_store.png&size=80% 80%
+
+---
 
 1.セッション変数保存ハンドラ の往路処理で、クッキーから取得したセッションIDをもとに、セッションストアからセッション変数をロードする。
 
@@ -184,7 +186,7 @@ HTTPとServletベースで、REST準拠WEBサービスの拡張も可能。（�
 
 ---
 
-〇　ログ出力
+### 〇　ログ出力
 
 ●　Nablarch
 
