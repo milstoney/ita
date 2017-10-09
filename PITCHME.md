@@ -67,16 +67,35 @@ Nablarchバッチアプリケーション
 
 〇　MVC
 
-●　Spring MVC
-
-HTTPとServletベースで、REST準拠WEBサービスの拡張も可能。
-
-●　NablarchもHTTPとServletベースのMVCをサポート
+●　<a href="https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/web/architecture.html" target="_blank">NablarchもHTTPとServletベースのMVCをサポート</a>
 
 +++?image=https://nablarch.github.io/docs/LATEST/doc/_images/web-design.png&size=80% 80%
 
 ---
 
+●　Spring MVC
+
+HTTPとServletベースで、REST準拠WEBサービスの拡張も可能。
+
+<a href="https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html" target="_blank">https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html</a>
+
+---
+
 〇DBアクセス機能
+
+●　Nablarch
+・データベースアクセス(JDBCラッパー)
+・ユニバーサルDAO（推奨）
+<a href="https://nablarch.github.io/docs/5u8/doc/application_framework/application_framework/libraries/database_management.html" target="_blank">https://nablarch.github.io/docs/5u8/doc/application_framework/application_framework/libraries/database_management.html</a>
+
+
+●　Spring
+・JDBC and DAO
+・O/R mapping (JDO, JPA, Hibernate, iBatis)
+
+
+〇トランザクション管理
+
+
 
 
