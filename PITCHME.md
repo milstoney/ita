@@ -7,6 +7,7 @@ Nablarch(ナブラーク)は、TISの豊富な基幹システム構築経験か�
 
 +++
 ![ALT](framework.png)
+
 <span style="font-size:0.6em; align=left">
 Nablarchアプリケーションフレームワークは、ウェブやバッチといった処理方式に合わせた実行制御基盤と、 データベースアクセスやバリデーションといった個別の機能を提供するライブラリから構成される。</span>
 
@@ -29,9 +30,14 @@ NablarchとSpringの共通点
    Web以外も対応：  
     ●Web Service     
      ・Nablarchでは、以下2種類のウェブサービス用のフレームワークを提供している。
-         RESTfulウェブサービス（推奨）         
-         HTTPメッセージング         
-         <a href="https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/web_service/index.html" target="_blank">https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/web_service/index.html</a>              ・
+     
+         RESTfulウェブサービス（推奨）      
+         
+         HTTPメッセージング
+         
+         <a href="https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/web_service/index.html" target="_blank">https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/web_service/index.html</a>             
+         
+      ・
 ---
 
 
