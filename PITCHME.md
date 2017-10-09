@@ -29,20 +29,17 @@ NablarchとSpringの共通点
 2. 対象は主にWebベースのアプリケーション。   
    Web以外も対応：  
     ●Web Service     
-     ・Nablarchでは、以下2種類のウェブサービス用のフレームワークを提供している。
+     ・Nablarch
      
-        <ul>
-		 <li>RESTfulウェブサービス（推奨）</li>
-		 <li>HTTPメッセージング</li>
-		 <li>クロヒョウ</li>
-		 <li>チンパンジー</li>
-		 <li>山猫</li>
-		</ul>
-         
-         
+         RESTfulウェブサービス（推奨）      
+         HTTPメッセージング
                      
++++        
+     ・Spring
+     
+         RESTfulウェブサービス（推奨） 
+         SOAP web service
          
-      ・
 ---
 
 
