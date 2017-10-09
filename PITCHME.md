@@ -67,13 +67,13 @@ Nablarchバッチアプリケーション
 
 〇　MVC
 
-●Spring MVC
+●　Spring MVC
 
 HTTPとServletベースで、REST準拠WEBサービスの拡張も可能。
 
-●NablarchもHTTPとServletベースのMVCをサポート
+●　NablarchもHTTPとServletベースのMVCをサポート
 
-+++?image=https://nablarch.github.io/docs/LATEST/doc/_images/web-design.png&size=50% 80%
++++?image=https://nablarch.github.io/docs/LATEST/doc/_images/web-design.png&size=80% 80%
 
 ---
 
