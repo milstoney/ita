@@ -26,7 +26,7 @@ NablarchとSpringの共通点
 ---
 〇 言語はJava (Spring.NETもあるが、ヒットしない)
 ---
-〇 対象は主にWeb Application。   
+〇 対象は主にWeb Application
 
 ---
 Web Application以外でも対応：  
@@ -55,11 +55,25 @@ RESTfulウェブサービス（推奨）
 
 JSR352に準拠したバッチアプリケーション（推奨）
 
-<a href="https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/batch/index.html" target="_blank">Nablarchバッチアプリケーション</a>
+Nablarchバッチアプリケーション
+
+<a href="https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/batch/index.html" target="_blank">https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/batch/index.html</a>
 
 ・Spring
 
 <a href="http://projects.spring.io/spring-batch/" target="_blank">Spring Batch</a>
 
+---
+
+〇MVC
+
+●Spring MVC
+HTTPとServletベースで、REST準拠WEBサービスの拡張も可能。
+●NablarchもHTTPとServletベースのMVCをサポート
+?image=https://nablarch.github.io/docs/LATEST/doc/_images/web-design.png&size=50% 80%
+
+---
+
+〇DBアクセス機能
 
 
