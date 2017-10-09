@@ -25,8 +25,13 @@ NablarchとSpringの共通点
 ---
 1. 言語はJava (Spring.NETもあるが、ヒットしない)
 ---
-2. 対象は主にWebベースのアプリケーション。   Web以外も対応：   ●Web Service     ・Nablarchでは、以下2種類のウェブサービス用のフレームワークを提供している。
-         RESTfulウェブサービス（推奨）         HTTPメッセージング         <a href="https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/web_service/index.html" target="_blank">https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/web_service/index.html</a>              ・
+2. 対象は主にWebベースのアプリケーション。   
+   Web以外も対応：  
+    ●Web Service     
+     ・Nablarchでは、以下2種類のウェブサービス用のフレームワークを提供している。
+         RESTfulウェブサービス（推奨）         
+         HTTPメッセージング         
+         <a href="https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/web_service/index.html" target="_blank">https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/web_service/index.html</a>              ・
 ---
 
 
