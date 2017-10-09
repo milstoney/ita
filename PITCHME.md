@@ -33,7 +33,7 @@ NablarchとSpringの共通点
      
          RESTfulウェブサービス（推奨）      
          HTTPメッセージング
-         <a href="https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/web_service/index.html" target="_blank">https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/web_service/index.html</a>
+<a href="https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/web_service/index.html" target="_blank">https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/web_service/index.html</a>
 
          
                              
