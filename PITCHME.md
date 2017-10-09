@@ -141,6 +141,7 @@ HTTPとServletベースで、REST準拠WEBサービスの拡張も可能。（�
 
 
 ●　Spring
+
 ・Java EE7のBean Validation(JSR349)に準拠したバリデーション機能 (Bean Validation)
 
 ・Custom Validator
