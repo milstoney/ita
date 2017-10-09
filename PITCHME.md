@@ -247,6 +247,7 @@ LogFormatter
 ---
 
 ●　Spring
+
 ・Java Util Logging
 
 ・Log4J
@@ -273,6 +274,8 @@ LogFormatter
 
 
 ---?image=https://nablarch.github.io/docs/LATEST/doc/_images/abstract_structure.png&size=80% 80%
+
+<a href="https://nablarch.github.io/docs/LATEST/doc/development_tools/testing_framework/guide/development_guide/06_TestFWGuide/01_Abstract.html" target="_blank">https://nablarch.github.io/docs/LATEST/doc/development_tools/testing_framework/guide/development_guide/06_TestFWGuide/01_Abstract.html</a>
 
 
 
