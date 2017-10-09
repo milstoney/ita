@@ -140,17 +140,50 @@ HTTPとServletベースで、REST準拠WEBサービスの拡張も可能。（�
 
 ●　Nablarch
 セッション変数の保存先は以下３つ
+
 ・DBストア
+
 ・HIDDENストア
+
 ・HTTPセッションストア
+
 
 ---?image=https://nablarch.github.io/docs/LATEST/doc/_images/session_store.png&size=80% 80%
 
 1.セッション変数保存ハンドラ の往路処理で、クッキーから取得したセッションIDをもとに、セッションストアからセッション変数をロードする。
+
 2.業務アクションから SessionUtil を通して、セッション変数に対する読み書きを行う。
+
 3.セッション変数保存ハンドラ の復路処理で、セッション変数をセッションストアに保存する。
+
 4.JSPで参照できるように、セッション変数をリクエストスコープに設定する。(既にリクエストスコープに同名の値が存在する場合は設定しない。)
 
 ---
 
+●　Spring
+
+・ユーザーセッションを管理するAPIとその実装（例えばRedis）を提供する
+
+・HttpSession - アプリケーションコンテナ（例えばTomcat）のHttpSessionに仲介する形でその機能を置き換える。
+
+・クラスターセッション - アプリケーションコンテナ固有の問題に縛られることなく、クラスタリングされたセッションをサポートすることができる
+
+・複数セッション - 1つのブラウザで複数のユーザーセッションを管理することができる。
+
+・RESTful API - RESTfulなAPIでも動作するようにセッションIDをHTTPヘッダで提供できる
+
+・WebSocket - WebSocketでメッセージを受け取ったときもHttpSessionを有効にし続ける機能を提供する
+
+<a href="https://projects.spring.io/spring-session/" target="_blank">https://projects.spring.io/spring-session/</a>
+
 ---
+
+〇　ログ出力
+
+●　Nablarch
+
+ログ出力は、３つの処理から構成されており、それぞれの実装を差し替えることができる。
+---?image=https://nablarch.github.io/docs/LATEST/doc/_images/log-structure.png&size=80% 80%
+
+
+
