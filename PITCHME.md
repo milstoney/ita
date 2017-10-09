@@ -320,10 +320,97 @@ LogFormatter
 ### 〇　メール送信
 
 ●　Nablarch
+
 ディレードオンライン処理と呼ばれる方式を採用しており、 メール送信を即時に行うのではなく、
+
 一旦、メール送信要求をデータベースに格納しておき、 常駐バッチを使い非同期にメール送信を行う。
 
 ---?image=https://nablarch.github.io/docs/LATEST/doc/_images/mail_system.png
 ---
+
+●　Spring
+
+JavaMailSender API
+
+---
+### 〇　ライセンス
+
+両者ともApache License 2.0
+ 
+---
+### 〇　サポート/コミュニティ
+
+●　Nablarch
+
+・主に日本語
+
+・小規模
+
+●　Spring
+
+・主に英語
+
+・大規模
+
+--- 
+
+### 〇　使えるIDE
+
+・IntelliJ 
+
+・Eclipse
+
+---
+
+### Nablarchの特色
+
+●　UIコンポーネント
+  
+  独自のUI開発基盤を持つ。設計段階に作成したデモ用JSPファイルはそのまま開発段階に流用できる。
+  
+  JSPファイルの様式は既定のUI基準に準拠したものであり、開発者はそれを意識する必要がない。
+  
+●　ETL機能
+
+●　レポート出力ライブラリ
+
+●　ワークフローライブラリ
+
+
+---
+
+### Springの特色
+
+●　DIコンテナ(Dependency Injection)
+
+---?image=https://thinkit.co.jp/images/compare/13/2/2.gif
+
+---
+メリット
+
+・疎結合
+
+・テストしやすくなる
+
+---
+
+●　AOP(Aspect Oriented Programming)
+
+クラスには「本質的な処理」のみ記述し、
+「本質的ではない余計な処理（共通化出来る処理）」をアスペクトに記述
+
+---?image=https://qiita-image-store.s3.amazonaws.com/0/124833/7a52d2bb-cc42-d60d-1e84-db709a1a6263.png&size=80% 80%
+
+---
+
+よく使う場面
+
+・トランザクション管理
+
+・ログ出力
+
+・例外管理
+
+
 
 
