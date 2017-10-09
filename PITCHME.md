@@ -69,7 +69,7 @@ Nablarchバッチアプリケーション
 
 ●　<a href="https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/web/architecture.html" target="_blank">NablarchもHTTPとServletベースのMVCをサポート</a>
 
-+++?image=https://nablarch.github.io/docs/LATEST/doc/_images/web-design.png&size=80% 80%
+---?image=https://nablarch.github.io/docs/LATEST/doc/_images/web-design.png&size=80% 80%
 
 ---
 
@@ -84,18 +84,38 @@ HTTPとServletベースで、REST準拠WEBサービスの拡張も可能。
 〇DBアクセス機能
 
 ●　Nablarch
+
 ・データベースアクセス(JDBCラッパー)
+
 ・ユニバーサルDAO（推奨）
 <a href="https://nablarch.github.io/docs/5u8/doc/application_framework/application_framework/libraries/database_management.html" target="_blank">https://nablarch.github.io/docs/5u8/doc/application_framework/application_framework/libraries/database_management.html</a>
 
 
 ●　Spring
+
 ・JDBC and DAO
+
 ・O/R mapping (JDO, JPA, Hibernate, iBatis)
 
+---
 
 〇トランザクション管理
 
+●　Nablarch
+・JdbcTransactionFactory 
 
+       <!-- コンポーネントとしてJdbcTransactionFactoryを設定する -->
+       <component class="nablarch.core.db.transaction.JdbcTransactionFactory">
 
+  			<!-- アイソレーションレベル -->
+  			<property name="isolationLevel" value="READ_COMMITTED" />
 
+  			<!-- トランザクションタイムアウト秒数 -->
+  			<property name="transactionTimeoutSec" value="15" />
+
+		</component>
+
+---
+●　Spring
+
+---
