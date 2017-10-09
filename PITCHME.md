@@ -241,5 +241,42 @@ LogFormatter
 
 ・メッセージングログ
 
+<a href="https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/libraries/log.html" target="_blank">https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/libraries/log.html</a>
+
+
+---
+
+●　Spring
+・Java Util Logging
+
+・Log4J
+
+・Log4J2
+
+・Logback
+
+・SLF4J
+
+現在はlogback + SLF4J または log4j2 + SLF4Jという組み合わせの２強
+
+---
+
+### 〇　テストフレームワーク
+
+●　Nablarch
+
+・JUnit4ベース
+
+・テストデータの外部化（Excelファイルに記述）
+
+・Nablarchに特化したテスト補助機能
+
+
+---?image=https://nablarch.github.io/docs/LATEST/doc/_images/abstract_structure.png&size=80% 80%
+
+
+
+
+---
 
 
