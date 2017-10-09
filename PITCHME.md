@@ -35,12 +35,11 @@ NablarchとSpringの共通点
          HTTPメッセージング
 <a href="https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/web_service/index.html" target="_blank">https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/web_service/index.html</a>
 
-
+---
      ・Spring
      
          RESTfulウェブサービス（推奨） 
-         SOAP web service
-         
+<a href="https://spring.io/guides/gs/producing-web-service/" target="_blank">SOAP web service</a>
 ---
     ●Batch Application
        ・Nablarch
