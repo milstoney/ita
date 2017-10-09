@@ -5,7 +5,7 @@ Nablarchについて
 Nablarch(ナブラーク)は、TISの豊富な基幹システム構築経験から得られたナレッジを集約したJavaアプリケーション開発/実行基盤です。
 <a href="https://nablarch.github.io/docs/LATEST/doc/" target="_blank">https://nablarch.github.io/docs/LATEST/doc/</a>
 
-+++
+---
 ![ALT](framework.png)
 
 <span style="font-size:0.6em; align=left">
@@ -18,7 +18,7 @@ Javaプラットフォーム向けのオープンソースアプリケーショ�
 <a href="https://ja.wikipedia.org/wiki/Spring_Framework" target="_blank">https://ja.wikipedia.org/wiki/Spring_Framework</a>
 
 
-+++?image=http://cdn.springtutorials.com/wp-content/uploads/2016/03/spring-overview-current.png&size=50% 80%
+---?image=http://cdn.springtutorials.com/wp-content/uploads/2016/03/spring-overview-current.png&size=50% 80%
 
 ---
 
@@ -26,14 +26,15 @@ NablarchとSpringの共通点
 ---
 〇 言語はJava (Spring.NETもあるが、ヒットしない)
 ---
-〇 対象は主にWebベースのアプリケーション。   
+〇 対象は主にWeb Application。   
 
 ---
-〇Web以外でも対応：  
+Web Application以外でも対応：  
     ●Web Service     
     ●Batch Application
 ---
 	●Web Service
+
      ・Nablarch
 
          RESTfulウェブサービス（推奨）      
@@ -43,7 +44,7 @@ NablarchとSpringの共通点
 ---
      ・Spring
      
-         RESTfulウェブサービス（推奨） 
+         ###RESTfulウェブサービス（推奨） 
 <a href="https://spring.io/guides/gs/producing-web-service/" target="_blank">SOAP web service</a>
 ---
     ●Batch Application
