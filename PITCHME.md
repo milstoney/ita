@@ -67,13 +67,17 @@ Nablarchバッチアプリケーション
 
 ### 〇　MVC
 
-●　<a href="https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/web/architecture.html" target="_blank">NablarchもHTTPとServletベースのMVCをサポート</a>
+●　Nablarch
+
+<a href="https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/web/architecture.html" target="_blank">HTTPとServletベースのMVCをサポート</a>
 
 ---?image=https://nablarch.github.io/docs/LATEST/doc/_images/web-design.png&size=80% 80%
 
 ---
 
-●　自前のMVCフレームワークSpring MVC
+●　Spring
+
+自前のMVCフレームワークSpring MVC
 
 HTTPとServletベースで、REST準拠WEBサービスの拡張も可能。（アノテーション設定）
 
