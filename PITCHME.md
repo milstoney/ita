@@ -75,13 +75,13 @@ Nablarchバッチアプリケーション
 
 ●　Spring MVC
 
-HTTPとServletベースで、REST準拠WEBサービスの拡張も可能。
+HTTPとServletベースで、REST準拠WEBサービスの拡張も可能。（アノテーション設定）
 
 <a href="https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html" target="_blank">https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html</a>
 
 ---
 
-〇DBアクセス機能
+〇　DBアクセス機能
 
 ●　Nablarch
 
@@ -99,9 +99,10 @@ HTTPとServletベースで、REST準拠WEBサービスの拡張も可能。
 
 ---
 
-〇トランザクション管理
+〇　トランザクション管理、排他制御
 
 ●　Nablarch
+
 ・JdbcTransactionFactory 
 
        <!-- コンポーネントとしてJdbcTransactionFactoryを設定する -->
@@ -117,5 +118,39 @@ HTTPとServletベースで、REST準拠WEBサービスの拡張も可能。
 
 ---
 ●　Spring
+・プログラミングによるトランザクション管理
+・宣言的トランザクション管理（@Transactional）
+
+---
+
+〇　Validation
+
+●　Nablarch
+・Java EE7のBean Validation(JSR349)に準拠したバリデーション機能 (Bean Validation)（推奨）
+・Nablarch独自のバリデーション機能 (Nablarch Validation)
+<a href="https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/libraries/validation.html" target="_blank">https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/libraries/validation.html</a>
+
+
+●　Spring
+・Java EE7のBean Validation(JSR349)に準拠したバリデーション機能 (Bean Validation)
+・Custom Validator
+
+---
+〇　セッション管理
+
+●　Nablarch
+セッション変数の保存先は以下３つ
+・DBストア
+・HIDDENストア
+・HTTPセッションストア
+
+---?image=https://nablarch.github.io/docs/LATEST/doc/_images/session_store.png&size=80% 80%
+
+1.セッション変数保存ハンドラ の往路処理で、クッキーから取得したセッションIDをもとに、セッションストアからセッション変数をロードする。
+2.業務アクションから SessionUtil を通して、セッション変数に対する読み書きを行う。
+3.セッション変数保存ハンドラ の復路処理で、セッション変数をセッションストアに保存する。
+4.JSPで参照できるように、セッション変数をリクエストスコープに設定する。(既にリクエストスコープに同名の値が存在する場合は設定しない。)
+
+---
 
 ---
