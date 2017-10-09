@@ -178,6 +178,8 @@ HTTPとServletベースで、REST準拠WEBサービスの拡張も可能。（�
 
 ・複数セッション - 1つのブラウザで複数のユーザーセッションを管理することができる。
 
+---
+
 ・RESTful API - RESTfulなAPIでも動作するようにセッションIDをHTTPヘッダで提供できる
 
 ・WebSocket - WebSocketでメッセージを受け取ったときもHttpSessionを有効にし続ける機能を提供する
@@ -192,6 +194,52 @@ HTTPとServletベースで、REST準拠WEBサービスの拡張も可能。（�
 
 ログ出力は、３つの処理から構成されており、それぞれの実装を差し替えることができる。
 ---?image=https://nablarch.github.io/docs/LATEST/doc/_images/log-structure.png&size=80% 80%
+
+---
+
+デフォルトクラス
+
+Logger/LoggerFactory
+
+・BasicLogger
+
+・BasicLoggerFactory
+
+
+---
+LogWriter
+
+・FileLogWriter (ファイルへ出力。ファイルサイズによるローテーション)
+
+・SynchronousFileLogWriter (複数プロセスから1ファイルへの出力)
+
+・StandardOutputLogWriter (標準出力へ出力)
+
+LogFormatter
+
+・BasicLogFormatter (パターン文字列によるフォーマット)
+
+---
+
+ほかはlogアダプタを使って、log4jなどに委譲するのも可能
+
+<a href="https://nablarch.github.io/docs/LATEST/doc/application_framework/adaptors/log_adaptor.html#log-adaptor" target="_blank">https://nablarch.github.io/docs/LATEST/doc/application_framework/adaptors/log_adaptor.html#log-adaptor</a>
+
+---
+
+ログの種類
+
+・障害通知ログ
+
+・障害解析ログ
+
+・SQLログ
+
+・パフォーマンスログ
+
+・HTTPアクセスログ
+
+・メッセージングログ
 
 
 
