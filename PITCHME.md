@@ -33,8 +33,7 @@ NablarchとSpringの共通点
      
          RESTfulウェブサービス（推奨）      
          HTTPメッセージング
-                     
-+++        
+                             
      ・Spring
      
          RESTfulウェブサービス（推奨） 
