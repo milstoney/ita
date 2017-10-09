@@ -33,18 +33,18 @@ Web Application以外でも対応：  
     ●Web Service     
     ●Batch Application
 ---
-	●Web Service
+●Web Service
 
-     ・Nablarch
+・Nablarch
 
-         RESTfulウェブサービス（推奨）      
-         HTTPメッセージング
+RESTfulウェブサービス（推奨）
+HTTPメッセージング
 <a href="https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/web_service/index.html" target="_blank">https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/web_service/index.html</a>
 
 ---
-     ・Spring
-     
-         ###RESTfulウェブサービス（推奨） 
+・Spring
+
+RESTfulウェブサービス（推奨） 
 <a href="https://spring.io/guides/gs/producing-web-service/" target="_blank">SOAP web service</a>
 ---
     ●Batch Application
