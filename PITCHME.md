@@ -26,7 +26,8 @@ spring-overview
 +++
 上下にも移動できます
 ---Nablarch vs Spring
-+++?image=https://nablarch.github.io/docs/LATEST/doc/_images/handlers.png
++++?image=https://nablarch.github.io/docs/LATEST/doc/_images/handlers.png&size=50% 90%
+
 +++
 上下にも移動できます
 ---
