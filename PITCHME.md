@@ -17,8 +17,8 @@ Springについて
 Javaプラットフォーム向けのオープンソースアプリケーションフレームワークである。
 <a href="https://ja.wikipedia.org/wiki/Spring_Framework" target="_blank">https://ja.wikipedia.org/wiki/Spring_Framework</a>
 
-+++
-![ALT](spring-overview.png)
+
++++?image=http://cdn.springtutorials.com/wp-content/uploads/2016/03/spring-overview-current.png&size=50% 50%
 
 ---
 
@@ -40,6 +40,6 @@ NablarchとSpringの共通点
          SOAP web service
          
 ---
-
+    ●Web Service    
 
 
