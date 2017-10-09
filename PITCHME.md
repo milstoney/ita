@@ -38,24 +38,28 @@ Web Application以外でも対応：  
 ・Nablarch
 
 RESTfulウェブサービス（推奨）
+
 HTTPメッセージング
 <a href="https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/web_service/index.html" target="_blank">https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/web_service/index.html</a>
 
 ---
 ・Spring
 
-RESTfulウェブサービス（推奨） 
+RESTfulウェブサービス（推奨）
+
 <a href="https://spring.io/guides/gs/producing-web-service/" target="_blank">SOAP web service</a>
 ---
-    ●Batch Application
-       ・Nablarch
-     
-         RESTfulウェブサービス（推奨）      
-         HTTPメッセージング
-                             
-     ・Spring
-     
-         RESTfulウェブサービス（推奨） 
-         SOAP web service
+●Batch Application
+
+・Nablarch
+
+JSR352に準拠したバッチアプリケーション（推奨）
+
+<a href="https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/batch/index.html" target="_blank">Nablarchバッチアプリケーション</a>
+
+・Spring
+
+<a href="http://projects.spring.io/spring-batch/" target="_blank">Spring Batch</a>
+
 
 
