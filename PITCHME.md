@@ -118,7 +118,9 @@ HTTPとServletベースで、REST準拠WEBサービスの拡張も可能。（�
 
 ---
 ●　Spring
+
 ・プログラミングによるトランザクション管理
+
 ・宣言的トランザクション管理（@Transactional）
 
 ---
@@ -126,8 +128,11 @@ HTTPとServletベースで、REST準拠WEBサービスの拡張も可能。（�
 〇　Validation
 
 ●　Nablarch
+
 ・Java EE7のBean Validation(JSR349)に準拠したバリデーション機能 (Bean Validation)（推奨）
+
 ・Nablarch独自のバリデーション機能 (Nablarch Validation)
+
 <a href="https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/libraries/validation.html" target="_blank">https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/libraries/validation.html</a>
 
 
