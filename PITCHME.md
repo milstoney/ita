@@ -73,7 +73,7 @@ Nablarchバッチアプリケーション
 
 ---
 
-●　Spring MVC
+●　自前のMVCフレームワークSpring MVC
 
 HTTPとServletベースで、REST準拠WEBサービスの拡張も可能。（アノテーション設定）
 
@@ -274,12 +274,56 @@ LogFormatter
 
 
 ---?image=https://nablarch.github.io/docs/LATEST/doc/_images/abstract_structure.png&size=80% 80%
+---
 
-<a href="https://nablarch.github.io/docs/LATEST/doc/development_tools/testing_framework/guide/development_guide/06_TestFWGuide/01_Abstract.html" target="_blank">https://nablarch.github.io/docs/LATEST/doc/development_tools/testing_framework/guide/development_guide/06_TestFWGuide/01_Abstract.html</a>
+おまけ：リクエスト単体データ作成ツール
+
+・HTML画面操作で操作でテストデータを作成
+
+<a href="https://nablarch.github.io/docs/LATEST/doc/development_tools/testing_framework/guide/development_guide/08_TestTools/01_HttpDumpTool/01_HttpDumpTool.html" target="_blank">https://nablarch.github.io/docs/LATEST/doc/development_tools/testing_framework/guide/development_guide/08_TestTools/01_HttpDumpTool/01_HttpDumpTool.html</a>
 
 
 
+---
 
+●　Spring
+
+・JUnitかTestNG
+
+・mock objects
+
+・annotations
+ 
+<a href="https://docs.spring.io/spring/docs/current/spring-framework-reference/testing.html#integration-testing-annotations" target="_blank">https://docs.spring.io/spring/docs/current/spring-framework-reference/testing.html#integration-testing-annotations</a>
+
+---
+
+### 〇　メッセージング
+
+●　Nablarch
+
+・MOMによるメッセージング
+
+・テーブルをキューとして使ったメッセージング
+
+<a href="https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/messaging/index.html" target="_blank">https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/messaging/index.html</a>
+
+---
+●　Spring
+
+・spring-jms  :   JMSを利用したメッセージング機能
+
+・Advanced Message Queuing Protocol (AMQP) 
+
+---
+
+### 〇　メール送信
+
+●　Nablarch
+ディレードオンライン処理と呼ばれる方式を採用しており、 メール送信を即時に行うのではなく、
+一旦、メール送信要求をデータベースに格納しておき、 常駐バッチを使い非同期にメール送信を行う。
+
+---?image=https://nablarch.github.io/docs/LATEST/doc/_images/mail_system.png
 ---
 
 
