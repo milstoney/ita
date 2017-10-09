@@ -24,9 +24,9 @@ Javaプラットフォーム向けのオープンソースアプリケーショ�
 
 NablarchとSpringの共通点
 ---
-1 言語はJava (Spring.NETもあるが、ヒットしない)
+1  言語はJava (Spring.NETもあるが、ヒットしない)
 ---
-2 対象は主にWebベースのアプリケーション。   
+2  対象は主にWebベースのアプリケーション。   
    Web以外も対応：  
     ●Web Service     
      ・Nablarch
