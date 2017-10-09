@@ -33,6 +33,9 @@ NablarchとSpringの共通点
      
          RESTfulウェブサービス（推奨）      
          HTTPメッセージング
+         <a href="https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/web_service/index.html" target="_blank">https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/web_service/index.html</a>
+
+         
                              
      ・Spring
      
@@ -40,6 +43,15 @@ NablarchとSpringの共通点
          SOAP web service
          
 ---
-    ●Web Service    
+    ●Batch Application
+       ・Nablarch
+     
+         RESTfulウェブサービス（推奨）      
+         HTTPメッセージング
+                             
+     ・Spring
+     
+         RESTfulウェブサービス（推奨） 
+         SOAP web service
 
 
