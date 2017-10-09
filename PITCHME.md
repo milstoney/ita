@@ -142,7 +142,7 @@ HTTPとServletベースで、REST準拠WEBサービスの拡張も可能。（�
 ・Custom Validator
 
 ---
-###セッション管理
+### セッション管理
 
 ●　Nablarch
 セッション変数の保存先は以下３つ
