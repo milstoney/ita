@@ -423,7 +423,8 @@ JavaMailSender API
 
 ---
 
-次回はNablarch vs Spring 実装対比？
+・次回はNablarch vs Spring 実装対比？
+・Nablarchにおけるテストフレームワークを使ってみる？
 
 ---
 
