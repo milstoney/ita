@@ -353,7 +353,7 @@ JavaMailSender API
 
 ●　Spring
 
-・主に英語
+・英語、日本語
 
 ・大規模
 
