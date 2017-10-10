@@ -338,6 +338,11 @@ LogFormatter
 JavaMailSender API
 
 ---
+### 〇　構成管理
+
+両者ともMaven、Gradle対応可能
+
+---
 ### 〇　ライセンス
 
 両者ともApache License 2.0
