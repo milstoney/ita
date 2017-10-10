@@ -420,10 +420,28 @@ JavaMailSender API
 ・ログ出力
 
 ・例外管理
+---
+### まとめ
+
+〇 Nablarch
+
+・TIS墨付き
+
+・テスタビリティ
+
+・業務開発に必要な拡張機能が多数
+
+〇 Spring
+
+・ドキュメント類、資料が豊富
+
+・進化しつづけている
+
+・シェアが断トツ
 
 ---
-
-・次回はNablarch vs Spring 実装対比？
+### 次回
+・Nablarch vs Spring 実装対比？
 ・Nablarchにおけるテストフレームワークを使ってみる？
 
 ---
